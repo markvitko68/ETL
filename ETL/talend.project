@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_I-MrsGnOEeiufcRfqEzH1g" label="ETL" language="java" technicalLabel="ETL" author="_I-MrsWnOEeiufcRfqEzH1g" productVersion="Talend Integration Cloud Elastic Edition-6.5.1.20180116_1512" url="{&quot;location&quot;:&quot;https://github.com/markvitko68/ETL&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false"/>
+  <TalendProperties:User xmi:id="_I-MrsWnOEeiufcRfqEzH1g" login="markvitko@eval9174.talend.com" firstName="Mark" lastName="Vitko" type="DQ"/>
+</xmi:XMI>
