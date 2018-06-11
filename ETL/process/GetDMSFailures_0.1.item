@@ -91,7 +91,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Jaspersoft/6.4.1/studio/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/talend/Talend-Studio-20180116_1512-V6.5.1/workspace/.metadata&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
@@ -140,6 +140,11 @@
     <routinesParameter id="_jzUtgDQ4EeiBPImOQOdv_Q" name="TalendDate"/>
     <routinesParameter id="_jzXJwDQ4EeiBPImOQOdv_Q" name="TalendString"/>
     <routinesParameter id="_jzZmADQ4EeiBPImOQOdv_Q" name="TalendStringUtil"/>
+    <routinesParameter id="_KMhgAGnOEeiufcRfqEzH1g" name="DQTechnical"/>
+    <routinesParameter id="_KMPzMGnOEeiufcRfqEzH1g" name="DataMasking"/>
+    <routinesParameter id="_KMWg4GnOEeiufcRfqEzH1g" name="DataQualityDependencies"/>
+    <routinesParameter id="_KMS2gGnOEeiufcRfqEzH1g" name="DataQuality"/>
+    <routinesParameter id="_KMd1oGnOEeiufcRfqEzH1g" name="DqStringHandling"/>
   </parameters>
   <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleInput_1" show="false"/>
@@ -187,8 +192,6 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tOracleInput_1">
       <column comment="" key="true" length="-1" name="ID" nullable="true" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
@@ -222,8 +225,6 @@
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogRow_1">
       <column comment="" key="true" length="-1" name="ID" nullable="true" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
@@ -243,8 +244,6 @@
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="Merged">
       <column comment="" key="true" length="-1" name="ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
@@ -292,8 +291,6 @@
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="out1">
       <column comment="" key="true" length="-1" name="client_id" nullable="true" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -352,8 +349,6 @@
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogRow_3">
       <column comment="" key="true" length="-1" name="ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
@@ -375,8 +370,6 @@
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="out2">
       <column comment="" key="true" length="-1" name="ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
@@ -438,8 +431,6 @@
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogRow_4">
       <column comment="" key="false" length="10" name="CLIENT_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -479,8 +470,6 @@
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogRow_5">
       <column comment="" key="true" length="-1" name="ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
@@ -502,8 +491,6 @@
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="out3">
       <column comment="" key="true" length="-1" name="ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" originalLength="19" usefulColumn="true"/>
@@ -565,8 +552,6 @@
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogRow_6">
       <column comment="" defaultValue="" key="false" length="10" name="PRODUCTID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
@@ -623,8 +608,6 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tOracleInput_2">
       <column comment="" defaultValue="" key="false" length="19" name="CLIENTID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
@@ -661,8 +644,6 @@
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogRow_2">
       <column comment="" defaultValue="" key="false" length="19" name="CLIENTID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
@@ -718,8 +699,6 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tOracleInput_3">
       <column comment="" key="false" length="10" name="CLIENT_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -764,8 +743,6 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="STATEID"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tMSSqlInput_1">
       <column comment="" defaultValue="" key="false" length="10" name="PRODUCTID" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
@@ -785,8 +762,6 @@
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="out4">
       <column comment="" defaultValue="" key="false" length="10" name="PRODUCTID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
@@ -852,8 +827,6 @@
     <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
     <elementParameter field="CHECK" name="RECALCULATE_FORMULA" value="false" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileOutputExcel_1">
       <column comment="" key="true" length="-1" name="ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" originalLength="19" usefulColumn="true"/>
@@ -938,8 +911,6 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tOracleOutput_1">
       <column comment="" key="true" length="-1" name="ID" nullable="true" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" originalLength="19" usefulColumn="true"/>
@@ -972,8 +943,6 @@
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="out5">
       <column comment="" defaultValue="" key="true" length="-1" name="ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" originalLength="19" usefulColumn="true"/>
@@ -1025,8 +994,6 @@
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogRow_7">
       <column comment="" key="false" length="10" name="CLIENT_ID" nullable="false" originalDbColumnName="DealerID" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -1069,8 +1036,6 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="STATEID"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tMSSqlInput_2">
       <column comment="" key="false" length="10" name="CLIENT_ID" nullable="false" originalDbColumnName="DealerID" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
