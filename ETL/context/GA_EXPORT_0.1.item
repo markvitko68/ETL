@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_w-wjoG2JEei9q-zp3O_Xsw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_w-wjoW2JEei9q-zp3O_Xsw" comment="" name="filePathOut" prompt="filePathOut?" promptNeeded="false" type="id_String" value="&quot;C:/Jaspersoft/6.3.1-ETLServer/studio/workspace/GA_Export/&quot;"/>
+  <contextParameter xmi:id="_w-wjom2JEei9q-zp3O_Xsw" comment="" name="filePathIn" prompt="filePathIn?" promptNeeded="false" type="id_String" value="&quot;C:/Jaspersoft/6.3.1-ETLServer/studio/workspace/&quot;"/>
+  <contextParameter xmi:id="_w-wjo22JEei9q-zp3O_Xsw" comment="" name="fileNameIn" prompt="fileNameIn?" promptNeeded="false" type="id_String" value="&quot;Dealer.txt&quot;"/>
+  <contextParameter xmi:id="_w-wjpG2JEei9q-zp3O_Xsw" comment="" name="fileNameOut" prompt="fileNameOut?" promptNeeded="false" type="id_String" value="&quot;State_Input_File.txt&quot;"/>
+  <contextParameter xmi:id="_w-wjpW2JEei9q-zp3O_Xsw" comment="" name="databaseHost" prompt="databaseHost?" promptNeeded="false" type="id_String" value="rtsrac1.prod.trivin.com"/>
+  <contextParameter xmi:id="_w-wjpm2JEei9q-zp3O_Xsw" comment="" name="database" prompt="database?" promptNeeded="false" type="id_String" value="prd1.prod.trivin.com"/>
+  <contextParameter xmi:id="_w-wjp22JEei9q-zp3O_Xsw" comment="" name="databaseUser" prompt="databaseUser?" promptNeeded="false" type="id_String" value="jasper_user"/>
+  <contextParameter xmi:id="_w-wjqG2JEei9q-zp3O_Xsw" comment="" name="databasePwd" prompt="databasePwd?" promptNeeded="false" type="id_String" value="resu_repsaj"/>
+  <contextParameter xmi:id="_w-wjqW2JEei9q-zp3O_Xsw" comment="" name="databaseSchema" prompt="databaseSchema?" promptNeeded="false" type="id_String" value="CAS_ERT_DAT"/>
+  <contextParameter xmi:id="_w-wjqm2JEei9q-zp3O_Xsw" comment="" name="databaseQuery" prompt="databaseQuery?" promptNeeded="false" type="id_String" value="SELECT C.CLIENTID, CA.ADDRESS_TYPE, TRIM(C.DMVID) as DMVID, trim(C.DMV_DEALER_LICENSE) as DMV_DEALER_LICENSE, UPPER(TRIM(C.NAME)) AS NAME, UPPER(TRIM(C.DMV_NAME)) AS DMV_NAME, UPPER(TRIM(A.STREET1)) AS STREET1, UPPER(TRIM(A.STREET2)) AS STREET2, UPPER(TRIM(A.CITY)) AS CITY, UPPER(TRIM(A.STATE)) AS STATE, SUBSTR(TRIM(A.ZIP),1,5) AS ZIP, substr(trim(a.zip),6,4) as ZIP4 FROM CAS_ERT_DAT.CLIENTS C JOIN CAS_ERT_DAT.CLIENT_ADDRESS CA ON CA.PARTYID=C.CLIENTID JOIN CAS_ERT_DAT.ADDRESS A ON A.ADDRESSID=CA.ADDRESSID and address_type=2 WHERE C.PRODUCTID=2000 AND C.STATUS='A' order by c.clientid, CA.ADDRESS_TYPE"/>
+  <contextParameter xmi:id="_w-wjq22JEei9q-zp3O_Xsw" comment="" name="fileNameMatch" prompt="fileNameMatch?" promptNeeded="false" type="id_String" value="DATA_MATCHES"/>
+  <contextParameter xmi:id="_w-wjrG2JEei9q-zp3O_Xsw" comment="" name="fileNameMisMatch" prompt="fileNameMisMatch?" promptNeeded="false" type="id_String" value="DATA_MISMATCH"/>
+  <contextParameter xmi:id="_w-wjrW2JEei9q-zp3O_Xsw" comment="" name="fileNameDMVIDMisMatch" prompt="fileNameDMVIDMisMatch?" promptNeeded="false" type="id_String" value="DMVID_NOT_FOUND"/>
+  <contextParameter xmi:id="_w-wjrm2JEei9q-zp3O_Xsw" comment="" name="FTPHost" prompt="FTPHost?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_w-wjr22JEei9q-zp3O_Xsw" comment="" name="FTPUser" prompt="FTPUser?" promptNeeded="false" type="id_String" value="DealerTrackProd"/>
+  <contextParameter xmi:id="_w-wjsG2JEei9q-zp3O_Xsw" comment="" name="FTPPwd" prompt="FTPPwd?" promptNeeded="false" type="id_String" value="DYbcyb14"/>
+  <contextParameter xmi:id="_w-wjsW2JEei9q-zp3O_Xsw" comment="" name="FTPRemoteDir" prompt="FTPRemoteDir?" promptNeeded="false" type="id_String" value="/Misc/"/>
+  <contextParameter xmi:id="_w-wjsm2JEei9q-zp3O_Xsw" comment="" name="FTPFileMask" prompt="FTPFileMask?" promptNeeded="false" type="id_String" value="Dealer.txt"/>
+  <contextParameter xmi:id="_w-wjs22JEei9q-zp3O_Xsw" comment="" name="contextFilePath" prompt="contextFilePath?" promptNeeded="false" type="id_String" value="../getGADealerFile.properties"/>
+  <contextParameter xmi:id="_w-wjtG2JEei9q-zp3O_Xsw" comment="" name="emailTo" prompt="emailTo?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_w-wjtW2JEei9q-zp3O_Xsw" comment="" name="emailFrom" prompt="emailFrom?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_w-wjtm2JEei9q-zp3O_Xsw" comment="" name="emailSenderName" prompt="emailSenderName?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_w-wjt22JEei9q-zp3O_Xsw" comment="" name="emailSMTPHost" prompt="emailSMTPHost?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_w-wjuG2JEei9q-zp3O_Xsw" comment="" name="emailSMTPPort" prompt="emailSMTPPort?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_w-wjuW2JEei9q-zp3O_Xsw" comment="" name="emailSMTPUser" prompt="emailSMTPUser?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_w-wjum2JEei9q-zp3O_Xsw" comment="" name="emailSMTPPwd" prompt="emailSMTPPwd?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_w-wju22JEei9q-zp3O_Xsw" comment="" name="emailSubject" prompt="emailSubject?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_w-wjvG2JEei9q-zp3O_Xsw" comment="" name="emailMessage" prompt="emailMessage?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_w-wjvW2JEei9q-zp3O_Xsw" comment="" name="image" prompt="image?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_w-wjvm2JEei9q-zp3O_Xsw" comment="" name="dmvFilePath" prompt="dmvFilePath?" promptNeeded="false" type="id_String" value="../GA_Export/"/>
+  <contextParameter xmi:id="_w-wjv22JEei9q-zp3O_Xsw" comment="" name="FTPPort" prompt="FTPPort?" promptNeeded="false" type="id_Integer" value="22"/>
+  <contextParameter xmi:id="_w-wjwG2JEei9q-zp3O_Xsw" comment="" name="updateDatabase" prompt="updateDatabase?" promptNeeded="false" type="id_Boolean" value="false"/>
+  <contextParameter xmi:id="_w-wjwW2JEei9q-zp3O_Xsw" comment="" name="fileNameNonRTSDealers" prompt="fileNameNonRTSDealers?" promptNeeded="false" type="id_String" value="NON_RTS_DEALERS"/>
+</talendfile:ContextType>
