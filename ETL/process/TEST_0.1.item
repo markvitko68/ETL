@@ -110,7 +110,7 @@
     <routinesParameter id="_KMd1oGnOEeiufcRfqEzH1g" name="DqStringHandling"/>
     <routinesParameter id="_KMhgAGnOEeiufcRfqEzH1g" name="DQTechnical"/>
   </parameters>
-  <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="192">
+  <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1" show="false"/>
     <elementParameter field="TEXT" name="TO" value="&quot;mark.vitko@coxautoinc.com&quot;"/>
     <elementParameter field="TEXT" name="FROM" value="&quot;mark@mvitko.com&quot;"/>
