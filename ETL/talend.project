@@ -160,6 +160,11 @@
       <relatedItems xmi:id="___6T4bUIEeiios14OphHHw" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="___6T4rUIEeiios14OphHHw" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="___6T47UIEeiios14OphHHw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ukp0kLYKEeiEU9TGbz4ePA" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ukp0kbYKEeiEU9TGbz4ePA" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ukp0krYKEeiEU9TGbz4ePA" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ukp0k7YKEeiEU9TGbz4ePA" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ukp0lLYKEeiEU9TGbz4ePA" id="DataQualityDependencies" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="___6T5LUIEeiios14OphHHw">
       <baseItem xmi:id="___6T5bUIEeiios14OphHHw" id="_39oKUKC6EeiAdciWDuanEQ" version="0.1" type="job"/>
