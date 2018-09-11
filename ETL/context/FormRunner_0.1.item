@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_0n5zoLYOEeiEU9TGbz4ePA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_0n5zobYOEeiEU9TGbz4ePA" comment="" name="userId" prompt="userId?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_0n5zorYOEeiEU9TGbz4ePA" comment="" name="password" prompt="password?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_0n5zo7YOEeiEU9TGbz4ePA" comment="" name="termToken" prompt="termToken?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_0n6asLYOEeiEU9TGbz4ePA" comment="" name="inputFile" prompt="inputFile?" promptNeeded="false" type="id_String" value="formlistin_PA_1.xlsx"/>
+  <contextParameter xmi:id="_0n6asbYOEeiEU9TGbz4ePA" comment="" name="outputFolder" prompt="outputFolder?" promptNeeded="false" type="id_String" value="u:/vitko/forms/"/>
+  <contextParameter xmi:id="_0n6asrYOEeiEU9TGbz4ePA" comment="" name="inputFolder" prompt="inputFolder?" promptNeeded="false" type="id_String" value="c:\\Jaspersoft/Run/CreateForm_0.1/"/>
+  <contextParameter xmi:id="_0n6as7YOEeiEU9TGbz4ePA" comment="" name="host" prompt="host?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_0n6atLYOEeiEU9TGbz4ePA" comment="" name="productURL" prompt="productURL?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_0n6atbYOEeiEU9TGbz4ePA" comment="" name="authToken" prompt="authToken?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_0n6atrYOEeiEU9TGbz4ePA" comment="" name="comparePath" prompt="comparePath?" promptNeeded="false" type="id_String" value="u:/vitko/formsold/"/>
+  <contextParameter xmi:id="_0n6at7YOEeiEU9TGbz4ePA" comment="" name="templatePath" prompt="templatePath?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_0n6auLYOEeiEU9TGbz4ePA" comment="" name="resultsPath" prompt="resultsPath?" promptNeeded="false" type="id_String" value="U:/vitko/compoutput/"/>
+  <contextParameter xmi:id="_0n6aubYOEeiEU9TGbz4ePA" comment="" name="compare" prompt="compare?" promptNeeded="false" type="id_Boolean" value="true"/>
+</talendfile:ContextType>

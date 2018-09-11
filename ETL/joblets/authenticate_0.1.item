@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:TalendXMLMap="http://www.talend.org/xmlmap" xmlns:model="http://www.talend.com/joblet.ecore">
+  <model:JobletProcess defaultContext="Default" jobType="Standard">
+    <context confirmationNeeded="false" name="Default">
+      <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value=""/>
+      <contextParameter comment="" name="inputFile" prompt="inputFile?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value="formlistin_PA_1.xlsx"/>
+      <contextParameter comment="" name="inputFolder" prompt="inputFolder?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value="c:\\Jaspersoft/Run/CreateForm_0.1/"/>
+      <contextParameter comment="" name="outputFolder" prompt="outputFolder?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value="u:/vitko/forms/"/>
+      <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value=""/>
+      <contextParameter comment="" name="productURL" prompt="productURL?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value=""/>
+      <contextParameter comment="" name="termToken" prompt="termToken?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value=""/>
+      <contextParameter comment="" name="userId" prompt="userId?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value=""/>
+      <contextParameter comment="" name="resultsPath" prompt="resultsPath?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value="U:/vitko/compoutput/"/>
+      <contextParameter comment="" name="compare" prompt="compare?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_Boolean" value="true"/>
+    </context>
+    <parameters>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+      <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+      <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false" show="false"/>
+      <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false" show="false"/>
+      <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false" show="false"/>
+      <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000" show="false"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="true"/>
+      <elementParameter field="ICON_SELECTION" name="ICONSELECTION" value=""/>
+      <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false" show="false"/>
+      <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+      <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+      <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;C:/Jaspersoft/6.3.1-ETLServer/studio/workspace/in.csv&quot;" show="false"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="ORACLE_11" show="false"/>
+      <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+      <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+      <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+      <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+      <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+      <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true" show="false"/>
+      <elementParameter field="CHECK" name="DISABLE_INFO" value="true" show="false"/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+      <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+      <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+      <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+      <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+      <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+      <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+      <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+      <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+      <routinesParameter id="_mz4zEguJEeiX8LtCSOYFPw" name="DataOperation"/>
+      <routinesParameter id="_m0tScAuJEeiX8LtCSOYFPw" name="Mathematical"/>
+      <routinesParameter id="_m0yK8AuJEeiX8LtCSOYFPw" name="Numeric"/>
+      <routinesParameter id="_m02cYAuJEeiX8LtCSOYFPw" name="Relational"/>
+      <routinesParameter id="_m1NowAuJEeiX8LtCSOYFPw" name="SQLike"/>
+      <routinesParameter id="_m06t0AuJEeiX8LtCSOYFPw" name="StringHandling"/>
+      <routinesParameter id="_m0_mUAuJEeiX8LtCSOYFPw" name="TalendDataGenerator"/>
+      <routinesParameter id="_m1D3wAuJEeiX8LtCSOYFPw" name="TalendDate"/>
+      <routinesParameter id="_m1D3xAuJEeiX8LtCSOYFPw" name="TalendString"/>
+      <routinesParameter id="_UDGw4C1EEeidAtA02s_uhQ" name="TalendStringUtil"/>
+    </parameters>
+    <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="128">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
+      <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+      <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+      <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+      <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+      <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+      <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+      <elementParameter field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
+      <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
+      <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
+      <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
+      <elementParameter field="TABLE" name="LENGTHS" show="false">
+        <elementValue elementRef="SCHEMA_COLUMN" value="string"/>
+        <elementValue elementRef="LENGTH" value="10"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="host"/>
+        <elementValue elementRef="LENGTH" value="10"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="productURL"/>
+        <elementValue elementRef="LENGTH" value="10"/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+      <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tLogRow_1">
+        <column comment="" key="false" length="-1" name="string" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="host" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="productURL" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="128">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRESTClient_1" show="false"/>
+      <elementParameter field="TEXT" name="URL" value="row3.host+row3.productURL+&quot;/rest/users/logon&quot;"/>
+      <elementParameter field="TEXT" name="PATH" value="&quot;&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="METHOD" value="POST"/>
+      <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" value="application/json"/>
+      <elementParameter field="CLOSED_LIST" name="ACCEPT_TYPE" value="application/json"/>
+      <elementParameter field="TABLE" name="QUERY"/>
+      <elementParameter field="CHECK" name="SERVICE_LOCATOR" value="false"/>
+      <elementParameter field="TEXT" name="SERVICE_NAMESPACE" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="SERVICE_NAME" value="&quot;&quot;" show="false"/>
+      <elementParameter field="CHECK" name="SERVICE_ACTIVITY_MONITOR" value="false"/>
+      <elementParameter field="CHECK" name="NEED_AUTH" value="false"/>
+      <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="BASIC" show="false"/>
+      <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;username&quot;" show="false"/>
+      <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="PoLvNyVG2XWndNDdLn696A==" show="false"/>
+      <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="&quot;&quot;" show="false"/>
+      <elementParameter field="CHECK" name="NEED_AUTHORIZATION" value="false" show="false"/>
+      <elementParameter field="TEXT" name="ROLE" value="&quot;&quot;" show="false"/>
+      <elementParameter field="CHECK" name="USE_BUSINESS_CORRELATION" value="false"/>
+      <elementParameter field="TEXT" name="CORRELATION_VALUE" value="&quot;&quot;" show="false"/>
+      <elementParameter field="CHECK" name="CHECK_SERVER_IDENTITY" value="true"/>
+      <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+      <elementParameter field="CHECK" name="LOG_MESSAGES" value="false"/>
+      <elementParameter field="CHECK" name="FOLLOW_REDIRECTS" value="false"/>
+      <elementParameter field="CHECK" name="REDIRECT_NON_SAME_HOST" value="false" show="false"/>
+      <elementParameter field="CHECK" name="ENABLE_WEBCLIENT_OPERATION_REPORTING" value="true"/>
+      <elementParameter field="CHECK" name="CONVERT_RESPONSE_TO_DOM" value="true"/>
+      <elementParameter field="CHECK" name="UNWRAP_JSON_REQUEST" value="false"/>
+      <elementParameter field="CHECK" name="WRAP_JSON_RESPONSE" value="true"/>
+      <elementParameter field="CHECK" name="CONVERT_TYPES_TO_STRINGS" value="false"/>
+      <elementParameter field="TABLE" name="HEADERS"/>
+      <elementParameter field="TABLE" name="SERVICE_LOCATOR_CUSTOM_PROPERTIES" show="false"/>
+      <elementParameter field="TABLE" name="SERVICE_ACTIVITY_MONITOR_CUSTOM_PROPERTIES" show="false"/>
+      <elementParameter field="CHECK" name="DISABLE_CHUNKED_ENCODING" value="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_TIMEOUT" value="30"/>
+      <elementParameter field="LABEL" name="CONNECTION_TIMEOUT_DESC" value="(Studio Only, See Doc for Runtime)"/>
+      <elementParameter field="TEXT" name="RECEIVE_TIMEOUT" value="60"/>
+      <elementParameter field="LABEL" name="RECEIVE_TIMEOUT_DESC" value="(Studio Only, See Doc for Runtime)"/>
+      <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+      <elementParameter field="TEXT" name="PROXY_HOST" value="&quot;61.163.92.4&quot;" show="false"/>
+      <elementParameter field="TEXT" name="PROXY_PORT" value="8080" show="false"/>
+      <elementParameter field="TEXT" name="PROXY_USERNAME" value="&quot;&quot;" show="false"/>
+      <elementParameter field="PASSWORD" name="PROXY_PASSWORD" value="0RMsyjmybrE=" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tRESTClient_1">
+        <column comment="" key="false" length="-1" name="string" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="host" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="productURL" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+      <metadata connector="RESPONSE" name="RESPONSE">
+        <column defaultValue="" key="false" length="0" name="statusCode" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="0" name="body" nullable="true" precision="0" sourceType="" type="id_Document" originalLength="-1" usefulColumn="true"/>
+        <column key="false" length="4048" name="string" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+      <metadata connector="FAULT" name="FAULT">
+        <column defaultValue="" key="false" length="0" name="errorCode" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="1024" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="576" posY="128">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tXMLMap_1" show="false"/>
+      <elementParameter field="EXTERNAL" name="MAP" value=""/>
+      <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false" show="false"/>
+      <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="AuthToken" name="AuthToken">
+        <column comment="" key="false" length="-1" name="authToken" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="userId" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="emailAddress" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="fullName" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="terminalId" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="lastLoginDate" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="passwordChangeDate" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="singleSignOn" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="ssoLoginUrl" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="selfRegUrl" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="bridgeBarJsUrl" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="bridgeBarEnv" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="ssoPwdResetUrl" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+      <nodeData xsi:type="TalendXMLMap:XmlMapData">
+        <inputTrees name="row2" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
+          <nodes name="statusCode" type="id_Integer" xpath="row2/statusCode"/>
+          <nodes name="body" expression="" type="id_Document" xpath="row2/body">
+            <children name="root" expression="" type="id_String" xpath="row2.body:/root" loop="true" main="true">
+              <children name="userInformation" expression="" type="id_String" xpath="row2.body:/root/userInformation">
+                <children name="userId" type="id_String" outgoingConnections="/0/@node.2/@nodeData/@connections.2" xpath="row2.body:/root/userInformation/userId"/>
+                <children name="emailAddress" type="id_String" outgoingConnections="/0/@node.2/@nodeData/@connections.1" xpath="row2.body:/root/userInformation/emailAddress"/>
+                <children name="fullName" type="id_String" outgoingConnections="/0/@node.2/@nodeData/@connections.0" xpath="row2.body:/root/userInformation/fullName"/>
+                <children name="terminalId" type="id_String" outgoingConnections="/0/@node.2/@nodeData/@connections.4" xpath="row2.body:/root/userInformation/terminalId"/>
+                <children name="lastLoginDate" type="id_String" outgoingConnections="/0/@node.2/@nodeData/@connections.5" xpath="row2.body:/root/userInformation/lastLoginDate"/>
+                <children name="passwordChangeDate" type="id_String" outgoingConnections="/0/@node.2/@nodeData/@connections.6" xpath="row2.body:/root/userInformation/passwordChangeDate"/>
+                <children name="singleSignOn" type="id_String" outgoingConnections="/0/@node.2/@nodeData/@connections.7" xpath="row2.body:/root/userInformation/singleSignOn"/>
+                <children name="ssoLoginUrl" type="id_String" outgoingConnections="/0/@node.2/@nodeData/@connections.8" xpath="row2.body:/root/userInformation/ssoLoginUrl"/>
+                <children name="selfRegUrl" type="id_String" outgoingConnections="/0/@node.2/@nodeData/@connections.9" xpath="row2.body:/root/userInformation/selfRegUrl"/>
+                <children name="bridgeBarJsUrl" type="id_String" outgoingConnections="/0/@node.2/@nodeData/@connections.10" xpath="row2.body:/root/userInformation/bridgeBarJsUrl"/>
+                <children name="bridgeBarEnv" type="id_String" outgoingConnections="/0/@node.2/@nodeData/@connections.11" xpath="row2.body:/root/userInformation/bridgeBarEnv"/>
+                <children name="ssoPwdResetUrl" type="id_String" outgoingConnections="/0/@node.2/@nodeData/@connections.12" xpath="row2.body:/root/userInformation/ssoPwdResetUrl"/>
+              </children>
+              <children name="authToken" type="id_String" outgoingConnections="/0/@node.2/@nodeData/@connections.3" xpath="row2.body:/root/authToken"/>
+            </children>
+          </nodes>
+          <nodes name="string" type="id_String" xpath="row2/string"/>
+        </inputTrees>
+        <outputTrees name="AuthToken">
+          <nodes name="authToken" expression="[row2.body:/root/authToken]" type="id_String" incomingConnections="/0/@node.2/@nodeData/@connections.3" xpath="AuthToken/authToken" pattern=""/>
+          <nodes name="userId" expression=" [row2.body:/root/userInformation/userId]" type="id_String" incomingConnections="/0/@node.2/@nodeData/@connections.2" xpath="AuthToken/userId" pattern=""/>
+          <nodes name="emailAddress" expression="[row2.body:/root/userInformation/emailAddress]" type="id_String" incomingConnections="/0/@node.2/@nodeData/@connections.1" xpath="AuthToken/emailAddress" pattern=""/>
+          <nodes name="fullName" expression="[row2.body:/root/userInformation/fullName]" type="id_String" incomingConnections="/0/@node.2/@nodeData/@connections.0" xpath="AuthToken/fullName" pattern=""/>
+          <nodes name="terminalId" expression="[row2.body:/root/userInformation/terminalId]" type="id_String" incomingConnections="/0/@node.2/@nodeData/@connections.4" xpath="AuthToken/terminalId" pattern=""/>
+          <nodes name="lastLoginDate" expression="[row2.body:/root/userInformation/lastLoginDate]" type="id_String" incomingConnections="/0/@node.2/@nodeData/@connections.5" xpath="AuthToken/lastLoginDate" pattern=""/>
+          <nodes name="passwordChangeDate" expression="[row2.body:/root/userInformation/passwordChangeDate]" type="id_String" incomingConnections="/0/@node.2/@nodeData/@connections.6" xpath="AuthToken/passwordChangeDate" pattern=""/>
+          <nodes name="singleSignOn" expression="[row2.body:/root/userInformation/singleSignOn]" type="id_String" incomingConnections="/0/@node.2/@nodeData/@connections.7" xpath="AuthToken/singleSignOn" pattern=""/>
+          <nodes name="ssoLoginUrl" expression="[row2.body:/root/userInformation/ssoLoginUrl]" type="id_String" incomingConnections="/0/@node.2/@nodeData/@connections.8" xpath="AuthToken/ssoLoginUrl" pattern=""/>
+          <nodes name="selfRegUrl" expression="[row2.body:/root/userInformation/selfRegUrl]" type="id_String" incomingConnections="/0/@node.2/@nodeData/@connections.9" xpath="AuthToken/selfRegUrl" pattern=""/>
+          <nodes name="bridgeBarJsUrl" expression="[row2.body:/root/userInformation/bridgeBarJsUrl]" type="id_String" incomingConnections="/0/@node.2/@nodeData/@connections.10" xpath="AuthToken/bridgeBarJsUrl" pattern=""/>
+          <nodes name="bridgeBarEnv" expression="[row2.body:/root/userInformation/bridgeBarEnv]" type="id_String" incomingConnections="/0/@node.2/@nodeData/@connections.11" xpath="AuthToken/bridgeBarEnv" pattern=""/>
+          <nodes name="ssoPwdResetUrl" expression="[row2.body:/root/userInformation/ssoPwdResetUrl]" type="id_String" incomingConnections="/0/@node.2/@nodeData/@connections.12" xpath="AuthToken/ssoPwdResetUrl" pattern=""/>
+        </outputTrees>
+        <varTables name="Var" minimized="true"/>
+        <connections xsi:type="TalendXMLMap:Connection" source="/0/@node.2/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.2" target="/0/@node.2/@nodeData/@outputTrees.0/@nodes.3"/>
+        <connections xsi:type="TalendXMLMap:Connection" source="/0/@node.2/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.1" target="/0/@node.2/@nodeData/@outputTrees.0/@nodes.2"/>
+        <connections xsi:type="TalendXMLMap:Connection" source="/0/@node.2/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.0" target="/0/@node.2/@nodeData/@outputTrees.0/@nodes.1"/>
+        <connections xsi:type="TalendXMLMap:Connection" source="/0/@node.2/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.1" target="/0/@node.2/@nodeData/@outputTrees.0/@nodes.0"/>
+        <connections xsi:type="TalendXMLMap:Connection" source="/0/@node.2/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.3" target="/0/@node.2/@nodeData/@outputTrees.0/@nodes.4"/>
+        <connections xsi:type="TalendXMLMap:Connection" source="/0/@node.2/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.4" target="/0/@node.2/@nodeData/@outputTrees.0/@nodes.5"/>
+        <connections xsi:type="TalendXMLMap:Connection" source="/0/@node.2/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.5" target="/0/@node.2/@nodeData/@outputTrees.0/@nodes.6"/>
+        <connections xsi:type="TalendXMLMap:Connection" source="/0/@node.2/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.6" target="/0/@node.2/@nodeData/@outputTrees.0/@nodes.7"/>
+        <connections xsi:type="TalendXMLMap:Connection" source="/0/@node.2/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.7" target="/0/@node.2/@nodeData/@outputTrees.0/@nodes.8"/>
+        <connections xsi:type="TalendXMLMap:Connection" source="/0/@node.2/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.8" target="/0/@node.2/@nodeData/@outputTrees.0/@nodes.9"/>
+        <connections xsi:type="TalendXMLMap:Connection" source="/0/@node.2/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.9" target="/0/@node.2/@nodeData/@outputTrees.0/@nodes.10"/>
+        <connections xsi:type="TalendXMLMap:Connection" source="/0/@node.2/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.10" target="/0/@node.2/@nodeData/@outputTrees.0/@nodes.11"/>
+        <connections xsi:type="TalendXMLMap:Connection" source="/0/@node.2/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.11" target="/0/@node.2/@nodeData/@outputTrees.0/@nodes.12"/>
+      </nodeData>
+    </node>
+    <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="128">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
+      <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+      <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+      <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+      <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+      <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+      <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+      <elementParameter field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
+      <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
+      <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
+      <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
+      <elementParameter field="TABLE" name="LENGTHS" show="false">
+        <elementValue elementRef="SCHEMA_COLUMN" value="authToken"/>
+        <elementValue elementRef="LENGTH" value="10"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="userId"/>
+        <elementValue elementRef="LENGTH" value="10"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="emailAddress"/>
+        <elementValue elementRef="LENGTH" value="10"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="fullName"/>
+        <elementValue elementRef="LENGTH" value="10"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="terminalId"/>
+        <elementValue elementRef="LENGTH" value="10"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="lastLoginDate"/>
+        <elementValue elementRef="LENGTH" value="10"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="passwordChangeDate"/>
+        <elementValue elementRef="LENGTH" value="10"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="singleSignOn"/>
+        <elementValue elementRef="LENGTH" value="10"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="ssoLoginUrl"/>
+        <elementValue elementRef="LENGTH" value="10"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="selfRegUrl"/>
+        <elementValue elementRef="LENGTH" value="10"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="bridgeBarJsUrl"/>
+        <elementValue elementRef="LENGTH" value="10"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="bridgeBarEnv"/>
+        <elementValue elementRef="LENGTH" value="10"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="ssoPwdResetUrl"/>
+        <elementValue elementRef="LENGTH" value="10"/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+      <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="AuthToken" name="tLogRow_2">
+        <column comment="" key="false" length="-1" name="authToken" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="userId" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="emailAddress" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="fullName" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="terminalId" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="lastLoginDate" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="passwordChangeDate" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="singleSignOn" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="ssoLoginUrl" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="selfRegUrl" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="bridgeBarJsUrl" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="bridgeBarEnv" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="ssoPwdResetUrl" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="INPUT_1" offsetLabelX="0" offsetLabelY="0" source="INPUT_1" target="tLogRow_1">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="host"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="productURL"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tLogRow_1" offsetLabelX="0" offsetLabelY="0" source="tLogRow_1" target="tRESTClient_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+    </connection>
+    <connection connectorName="RESPONSE" label="row2" lineStyle="0" metaname="tRESTClient_1" offsetLabelX="0" offsetLabelY="0" source="tRESTClient_1" target="tXMLMap_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="AuthToken" lineStyle="0" metaname="AuthToken" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_1" target="tLogRow_2">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="AuthToken" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tLogRow_2" offsetLabelX="0" offsetLabelY="0" source="tLogRow_2" target="OUTPUT_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
+    </connection>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="INPUT_1" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <jobletNodes componentName="INPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="96" posY="128" input="true">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="INPUT_1"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+      <elementParameter field="CHECK" name="START" value="true" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+      <metadata connector="FLOW" name="INPUT_1">
+        <column comment="" key="false" length="-1" name="string" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="host" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="productURL" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </jobletNodes>
+    <jobletNodes componentName="OUTPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="864" posY="128">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OUTPUT_1"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="false" show="false"/>
+      <elementParameter field="CHECK" name="START" value="false" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+      <metadata connector="FLOW" label="AuthToken" name="OUTPUT_1">
+        <column comment="" key="false" length="-1" name="authToken" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="userId" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="emailAddress" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="fullName" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="terminalId" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="lastLoginDate" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="passwordChangeDate" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="singleSignOn" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="ssoLoginUrl" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="selfRegUrl" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="bridgeBarJsUrl" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="bridgeBarEnv" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="ssoPwdResetUrl" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </jobletNodes>
+  </model:JobletProcess>
+  <TalendProperties:ByteArray/>
+</xmi:XMI>
