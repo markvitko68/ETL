@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="inputFolder" prompt="inputFolder?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="fileName" prompt="fileName?" promptNeeded="false" type="id_String" value=""/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
@@ -164,7 +167,7 @@
     <elementParameter field="FILE" name="PRIVATE_KEY" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="BUCKET" value="&quot;jiraextract&quot;"/>
     <elementParameter field="TEXT" name="KEY" value="&quot;67.xml&quot;"/>
-    <elementParameter field="FILE" name="FILE" value="&quot;C:/Jaspersoft/67.xml&quot;"/>
+    <elementParameter field="FILE" name="FILE" value="context.inputFolder+context.fileName"/>
     <elementParameter field="CHECK" name="ENABLE-SERVER-SIDE-ENCRYPTION" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="CHECK" name="CONFIG_CLIENT" value="false" show="false"/>
