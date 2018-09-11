@@ -166,7 +166,7 @@
     <elementParameter field="FILE" name="PUBLIC_KEY" value="&quot;&quot;" show="false"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="BUCKET" value="&quot;jiraextract&quot;"/>
-    <elementParameter field="TEXT" name="KEY" value="&quot;67.xml&quot;"/>
+    <elementParameter field="TEXT" name="KEY" value="context.fileName"/>
     <elementParameter field="FILE" name="FILE" value="context.inputFolder+context.fileName"/>
     <elementParameter field="CHECK" name="ENABLE-SERVER-SIDE-ENCRYPTION" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
