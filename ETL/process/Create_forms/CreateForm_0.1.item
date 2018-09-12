@@ -5,7 +5,7 @@
     <contextParameter comment="" name="comparePath" prompt="comparePath?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value="u:/vitko/formsold/"/>
     <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value=""/>
     <contextParameter comment="" name="inputFile" prompt="inputFile?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value="formlistin_PA_1.xlsx"/>
-    <contextParameter comment="" name="inputFolder" prompt="inputFolder?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value="c:\\Jaspersoft/Run/CreateForm_0.1/"/>
+    <contextParameter comment="" name="inputFolder" prompt="inputFolder?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value="c:/Jaspersoft/Run/CreateForm_0.1/"/>
     <contextParameter comment="" name="outputFolder" prompt="outputFolder?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value="u:/vitko/forms/"/>
     <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value=""/>
     <contextParameter comment="" name="productURL" prompt="productURL?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value=""/>
