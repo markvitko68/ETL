@@ -4,7 +4,7 @@
     <context confirmationNeeded="false" name="Default">
       <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value=""/>
       <contextParameter comment="" name="inputFile" prompt="inputFile?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value="formlistin_PA_1.xlsx"/>
-      <contextParameter comment="" name="inputFolder" prompt="inputFolder?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value="c:\\Jaspersoft/Run/CreateForm_0.1/"/>
+      <contextParameter comment="" name="inputFolder" prompt="inputFolder?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value="c:/Jaspersoft/Run/CreateForm_0.1/"/>
       <contextParameter comment="" name="outputFolder" prompt="outputFolder?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value="u:/vitko/forms/"/>
       <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value=""/>
       <contextParameter comment="" name="productURL" prompt="productURL?" promptNeeded="false" repositoryContextId="_3gxHMAwlEei_g_kn4nbAYQ" type="id_String" value=""/>
@@ -84,6 +84,11 @@
       <routinesParameter id="_m1D3wAuJEeiX8LtCSOYFPw" name="TalendDate"/>
       <routinesParameter id="_m1D3xAuJEeiX8LtCSOYFPw" name="TalendString"/>
       <routinesParameter id="_UDGw4C1EEeidAtA02s_uhQ" name="TalendStringUtil"/>
+      <routinesParameter id="_KMhgAGnOEeiufcRfqEzH1g" name="DQTechnical"/>
+      <routinesParameter id="_KMPzMGnOEeiufcRfqEzH1g" name="DataMasking"/>
+      <routinesParameter id="_KMWg4GnOEeiufcRfqEzH1g" name="DataQualityDependencies"/>
+      <routinesParameter id="_KMS2gGnOEeiufcRfqEzH1g" name="DataQuality"/>
+      <routinesParameter id="_KMd1oGnOEeiufcRfqEzH1g" name="DqStringHandling"/>
     </parameters>
     <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="128">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
@@ -108,8 +113,6 @@
       </elementParameter>
       <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
       <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-      <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
       <metadata connector="FLOW" name="tLogRow_1">
         <column comment="" key="false" length="-1" name="string" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -161,8 +164,6 @@
       <elementParameter field="TEXT" name="PROXY_PORT" value="8080" show="false"/>
       <elementParameter field="TEXT" name="PROXY_USERNAME" value="&quot;&quot;" show="false"/>
       <elementParameter field="PASSWORD" name="PROXY_PASSWORD" value="0RMsyjmybrE=" show="false"/>
-      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-      <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
       <metadata connector="FLOW" name="tRESTClient_1">
         <column comment="" key="false" length="-1" name="string" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -184,8 +185,6 @@
       <elementParameter field="EXTERNAL" name="MAP" value=""/>
       <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false" show="false"/>
       <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
-      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-      <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
       <metadata connector="FLOW" label="AuthToken" name="AuthToken">
         <column comment="" key="false" length="-1" name="authToken" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -300,8 +299,6 @@
       </elementParameter>
       <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
       <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
-      <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
       <metadata connector="FLOW" label="AuthToken" name="tLogRow_2">
         <column comment="" key="false" length="-1" name="authToken" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>

@@ -5,7 +5,7 @@
   <contextParameter xmi:id="_0n5zo7YOEeiEU9TGbz4ePA" comment="" name="termToken" prompt="termToken?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_0n6asLYOEeiEU9TGbz4ePA" comment="" name="inputFile" prompt="inputFile?" promptNeeded="false" type="id_String" value="formlistin_PA_1.xlsx"/>
   <contextParameter xmi:id="_0n6asbYOEeiEU9TGbz4ePA" comment="" name="outputFolder" prompt="outputFolder?" promptNeeded="false" type="id_String" value="u:/vitko/forms/"/>
-  <contextParameter xmi:id="_0n6asrYOEeiEU9TGbz4ePA" comment="" name="inputFolder" prompt="inputFolder?" promptNeeded="false" type="id_String" value="c:\\Jaspersoft/Run/CreateForm_0.1/"/>
+  <contextParameter xmi:id="_0n6asrYOEeiEU9TGbz4ePA" comment="" name="inputFolder" prompt="inputFolder?" promptNeeded="false" type="id_String" value="c:/Jaspersoft/Run/CreateForm_0.1/"/>
   <contextParameter xmi:id="_0n6as7YOEeiEU9TGbz4ePA" comment="" name="host" prompt="host?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_0n6atLYOEeiEU9TGbz4ePA" comment="" name="productURL" prompt="productURL?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_0n6atbYOEeiEU9TGbz4ePA" comment="" name="authToken" prompt="authToken?" promptNeeded="false" type="id_String" value=""/>
